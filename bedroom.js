@@ -1,13 +1,13 @@
-function next()
+function back()
 {
-	window.location = "bedroom.html";
+	window.location = "index.html";
 }
 
-img = "";
+img2 = "";
 
 function preload()
 {
-	img = loadImage("fruit_basket.jpg");
+	img2 = loadImage("bedroom.jpg");
 }
 
 function modelLoaded()
@@ -29,17 +29,17 @@ function gotResult(error, results)
 
 function draw()
 {
-	image(img, 0, 0, 640, 420);
-	fill("#FFFFF");
-	text("Fruits", 45, 75);
+	image(img2, 0, 0, 640, 420);
+	fill("#030101");
+	text("Lamp", 45, 75);
 	noFill();
-	stroke("#FFFFF");
+	stroke("#030101");
 	rect(30, 60, 450, 350);
 	
-	fill("#FFFFF");
-	text("Basket", 320, 120);
+	fill("#030101");
+	text("Bed", 320, 120);
 	noFill();
-	stroke("#FFFFF");
+	stroke("#030101");
 	rect(300, 90, 270, 320);
 }
 

@@ -13,9 +13,10 @@
 	font-size: 30px;
 }
 
-#button {
-    font-size: 18px;
-	float:right;
-	margin-right:55px;
-	padding: 20px;
+#button2 {
+	font-size:18px;
+	float:left;
+	margin-left:115px;
+	padding:50px;
+	
 }
